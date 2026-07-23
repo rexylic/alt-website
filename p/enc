@@ -1,1 +1,0 @@
-echo "obase=10; ibase=36; $(cat hex | string upper)" | bc | tr -d '\\\n' > card
