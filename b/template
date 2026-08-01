@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href='/page.css'>
+  <title></title>
+</head><body><div class='top'>
+  <nav>
+    <div class='title'>
+      <b></b>
+    </div>
+    <div class='date'>
+      <i>Date</i>
+      <span class='wk'></span>
+      <span class='dt'></span>
+      <span class='yr'></span>
+    </div>
+    <div class='weather'>
+      <i>Weather</i>
+      <span class='sky'></span>
+      <span class='wind'></span>
+      <span class='air'></span>
+    </div>
+  </nav>
+  <main>
+    <p>
+    </p>
+  </main>
+</div></body></html>
