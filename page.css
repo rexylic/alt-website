@@ -78,6 +78,20 @@ main pre {
   overflow-wrap: anywhere;
 }
 
+blockquote {
+  margin: 1.5em 2em;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1em auto;
+  width: fit-content;
+}
+
+th:not(:last-child) {
+  padding-right: 1em;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #e8e8e8;

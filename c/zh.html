@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html><head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href='/page.css'>
+  <title>New Pinyin</title>
+  <style>
+    #subs td:not(:last-child) { padding-right: 2em; }
+  </style>
+</head><body><div class='top'>
+  <nav>
+    <div>
+      <b>New Pinyin</b>
+    </div>
+  </nav>
+  <main>
+    <p>
+      This is a transcription system for Mandarin Chinese,
+      designed to replace Pinyin.
+    </p>
+    <h2>What's wrong with Pinyin</h2>
+    <p>
+      Not necessarily anything.
+      It has served its purpose dutifully,
+      so it's more that I don't agree with some of its design choices. 
+    </p>
+    <p>
+      For example, I don't like how "bian" doesn't actually have the same "a" sound as in "xia". 
+      I also don't like how "j", "q", "x" are always followed by "i",
+      feels redundant. 
+    </p>
+    <h2>My system</h2>
+    <p>
+      Here's a list of my notations for sounds,
+      encoded in XHSP. 
+    </p>
+    <table>
+      <thead>
+        <tr><th>Code</th><th>Head</th><th>Tail</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>a</td><td>'</td><td>a</td></tr>
+        <tr><td>b</td><td>b</td><td>in</td></tr>
+        <tr><td>c</td><td>c</td><td>au</td></tr>
+        <tr><td>d</td><td>d</td><td>au</td></tr>
+        <tr><td>e</td><td>'</td><td>e</td></tr>
+        <tr><td>f</td><td>f</td><td>en</td></tr>
+        <tr><td>g</td><td>g</td><td>eng</td></tr>
+        <tr><td>h</td><td>h</td><td>ang</td></tr>
+        <tr><td>i</td><td>ch</td><td>i, ı</td></tr>
+        <tr><td>j</td><td>z(i)</td><td>an</td></tr>
+        <tr><td>k</td><td>k</td><td>ing, uai</td></tr>
+        <tr><td>l</td><td>l</td><td>iang, uang</td></tr>
+        <tr><td>m</td><td>m</td><td>ien</td></tr>
+        <tr><td>n</td><td>n</td><td>iau</td></tr>
+        <tr><td>o</td><td>'</td><td>uo, ou</td></tr>
+        <tr><td>p</td><td>p</td><td>ie</td></tr>
+        <tr><td>q</td><td>c(i)</td><td>io</td></tr>
+        <tr><td>r</td><td>r</td><td>uan, iuen</td></tr>
+        <tr><td>s</td><td>s</td><td>ong, iong</td></tr>
+        <tr><td>t</td><td>t</td><td>iue</td></tr>
+        <tr><td>u</td><td>sh</td><td>u, iu</td></tr>
+        <tr><td>v</td><td>zh</td><td>iu, uei</td></tr>
+        <tr><td>w</td><td>u</td><td>ei</td></tr>
+        <tr><td>x</td><td>s(i)</td><td>ia, ua</td></tr>
+        <tr><td>y</td><td>i</td><td>iuen</td></tr>
+        <tr><td>z</td><td>z</td><td>ou</td></tr>
+      </tbody>
+    </table>
+    <p>
+      If a character sound starts with a vowel and does not follow a space,
+      prepend an apostrophe, like so: <i>si'an</i>.
+    </p>
+    <p>
+      The only non-ASCII symbol used is <i>ı</i>,
+      which usage (I think) is perfectly justified.
+      It's a wonderful letter. 
+      Optionally, you may substitute letter runs with the following:
+    </p>
+    <table id='subs'>
+      <tr>
+        <td><i>ŋ</i> for <i>ng</i></td>
+        <td><i>č</i> for <i>ch</i></td>
+        <td><i>š</i> for <i>sh</i></td>
+        <td><i>ž</i> for <i>zh</i></td>
+      </tr>
+      <tr>
+        <td><i>y</i> for <i>iu</i></td>
+        <td><i>é</i> for <i>ei</i></td>
+        <td><i>ó</i> for <i>ou</i></td>
+      </tr>
+    </table>
+    <h2>Sample</h2>
+    <p>
+      Here's a sample passage with Pinyin,
+      the same passage written in my system,
+      and the same passage with all substitutions. 
+    </p>
+    <blockquote>
+      <p>
+        renren sheng'erziyou,
+        zai zunyan he quanli shang yilü pingdeng. 
+        tamen fuyou lixing he liangxin,
+        bing ying yi xiongdi guanxi de jingshen xiang duidai. 
+      </p>
+      <p>
+        renren sheng'erzı'iou,
+        zai zuen'ien he ciuenli shang iliu pingdeng.
+        tamen fuyou lising he liangsin,
+        bing ing i siongdi guansi de zingshen siang dueidai. 
+      </p>
+      <p>
+        renren šeŋ'erzı'ió,
+        zai zuen'ien he cyenli šaŋ ily piŋdeŋ.
+        tamen fuyó lisiŋ he liaŋsin,
+        biŋ iŋ i sioŋdi guansi de ziŋšen siaŋ duédai.
+      </p>
+    </blockquote>
+  </main>
+</div></body></html>
