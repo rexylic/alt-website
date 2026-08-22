@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/page.css">
-<title></title>
-</head><body><div class="top">
-<nav>
-<div>
-<b></b>
-<span></span>
-<i>Nicole Zefanya</i>
-</div>
-</nav>
-<main><div class='poetry'>
-</div><hr></main>
-</div></body></html>
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<meta name='viewport' content='width=device-width,initial-scale=1'>
+<link rel="stylesheet" href="/page.css"><title>
+
+</title></head><body><div class="top"><nav><div><b>
+Title
+</b><span>
+Album
+</span><i>
+Artist
+</i></div></nav><main><div class='poetry'>
+
+</div><hr></main></div></body></html>
