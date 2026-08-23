@@ -1,9 +1,9 @@
 <!DOCTYPE html><html><head><title>Redirect</title>
 <meta http-equiv='refresh'
-content='0; url=https://rexylic.com'
+content='0; url=%'
 ></head><body><p>
 You should be redirected to <a
-href='https://rexylic.com'
+href='%'
 >this link</a>.
 If you were not redirected,
 kindly click on the link yourself

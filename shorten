@@ -1,0 +1,2 @@
+#!/usr/bin/env fish
+string replace -- '%' $argv[1] <./redirect >"$argv[2].html"
