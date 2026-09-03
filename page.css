@@ -12,8 +12,8 @@
 }
 
 body {
-  font-size: 13pt;
-  font-family: "Newsreader", serif;
+  font-size: 14pt;
+  font-family: serif;
   font-optical-sizing: auto;
   display: flex;
   align-items: center;
@@ -82,6 +82,17 @@ blockquote {
   margin: 1.5em 2em;
 }
 
+code {
+  font-family: monospace;
+  font-size: 12pt;
+}
+
+code.hljs {
+  display: block;
+  border-radius: 5pt;
+  padding: 1em;
+}
+
 table {
   border-collapse: collapse;
   margin: 1em auto;
@@ -115,7 +126,7 @@ th:not(:last-child) {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   :root {
     --margin: 2rem;
   }
