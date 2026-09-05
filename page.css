@@ -82,7 +82,7 @@ blockquote {
 
 code {
   font-family: monospace;
-  font-size: 12pt;
+  font-size: smaller;
 }
 
 code.hljs {
